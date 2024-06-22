@@ -10,18 +10,23 @@ Dataset Link: https://github.com/spMohanty/PlantVillage-Dataset
 The data for this study was sourced from the "Color" section found in the "raw" folder of the PlantVillage dataset. The modeling in this study is specifically centered on the analysis of Apple Leaves data. The train and test datasets are structured into two folders: Diseased and Healthy. The Diseased Folder encompasses images of leaves affected by Black Rot, Cedar Apple Rust, and Apple Scab, labeled as diseased or unhealthy. On the other hand, the Healthy Folder contains images of green and healthy leaves.
 
 ## Technologies Used
-### Deep Learning Models
-- TensorFlow
-- Keras
-- NumPy
-- Pandas
-- Matplotlib
+Programming Languages: Python
 
-### Machine Learning Models
-- Scikit-learn
-- NumPy
-- Pandas
-- Matplotlib
+Data Manipulation and Analysis: Pandas, NumPy
+
+Image Processing: OpenCV, Mahotas
+
+Data Preprocessing and Augmentation: TensorFlow Keras ImageDataGenerator
+
+Machine Learning: Scikit-learn
+
+Deep Learning: TensorFlow, Keras
+
+Visualization: Seaborn, Matplotlib
+
+Model Evaluation: Confusion Matrix, ROC-AUC, Precision-Recall Curve
+
+Handling Imbalanced Datasets: SMOTE (Synthetic Minority Over-sampling Technique)
 
 ## Skills Required
 - Proficiency in TensorFlow and Keras (for deep learning models)
